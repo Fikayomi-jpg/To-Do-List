@@ -1,23 +1,70 @@
-<<<<<<< HEAD
-# React + Vite
+# 📝 React To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **To-Do List application** built with **React**.
+This app helps users manage daily tasks efficiently by allowing them to add, delete, and organize tasks in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+*  Add new tasks
+*  Edit tasks
+*  Delete tasks
+*  Responsive design
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 📸 Preview
 
-## Expanding the ESLint configuration
+<p align="center">
+ <img width="600" alt="image" src="https://github.com/user-attachments/assets/ae636105-b67e-4ae8-8cb7-12ae5e6e8a42" />
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# To-Do-List
-A To-Do List made using React that allows users add tasks, edit tasks and delete tasks from the list
->>>>>>> 4d5f460b85ca8bf8d098d0c47db4c1eef0a4829b
+---
+
+## 🛠️ Built With
+
+* ⚛️ React
+* 💅 CSS
+* 🧠 JavaScript (ES6+)
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Fikayomi-jpg/react-todo-list.git
+```
+
+2. Navigate into the project:
+
+```bash
+cd react-todo-list
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the app:
+
+```bash
+npm run dev
+```
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Fikayomi** https://github.com/Fikayomi-jpg
+
+---
+
+## 📄 License
+
+This project is open source and free to use.
+
