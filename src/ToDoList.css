@@ -1,0 +1,98 @@
+.todo-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.todo-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--text-h);
+}
+
+.todo-input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-input-group input {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.todo-input-group input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.add-btn {
+  padding: 10px 20px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  opacity: 0.9;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: var(--code-bg);
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.todo-item span {
+  flex: 1;
+  color: var(--text-h);
+}
+
+.todo-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background: var(--accent);
+  color: white;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.empty-message {
+  text-align: center;
+  color: var(--text);
+  padding: 20px;
+}
